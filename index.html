@@ -2,8 +2,7 @@
 <html>
 <head>
 	<title>MENSENKALENDEREN - En julekalender fra Punktum UB</title>
-	  <meta charset="utf-8">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<meta name="description" content="En kalender fra Punktum UB, der det legges ut en helt ny mensen video helt frem til julaften"/>
 <link rel="apple-touch-icon" sizes="57x57" href="/favicon.ico/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/favicon.ico/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/favicon.ico/apple-icon-72x72.png">
@@ -20,30 +19,26 @@
 <link rel="manifest" href="/favicon.ico/manifest.json">
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="/favicon.ico/ms-icon-144x144.png">
-	<meta name="description" content="En julekalender fra Punktum UB, der det legges ut en helt ny mensen video helt frem til julaften"/>
+
 <meta name="theme-color" content="#db5945">
-	<meta name="viewport" content="width=device-width, initial-scale=0.95">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-
-
-
 <body>
 <div class="alert alert-primary" style=" font-family: Arial; " role="alert">
   Vi håper alle hadde en fin jul. <a href="https://punktumub.com/" class="alert-link">Gå tilbake til punktumub.com</a>
 </div>
-	<br>
+
+
+<br>
 	<h1>Gledelig mensen jul</h1>
 	<div align="center">
-
 		<h2>Julekalender 2018</h2>
-
 	</div>
 
-
 <ul>
-    <li><a href="1.html"><div class="door">1</div></li></a>
+      <li><a href="1.html"><div class="door">1</div></li></a>
   <li><a href="2.html"><div class="door">2</div></li></a>
   <li><a href="3.html"><div class="door">3</div></li></a>
   <li><a href="4.html"><div class="door">4</div></li></a>
@@ -69,176 +64,11 @@
   <li><a href="24.html"><div class="door">24</div></li></a>
 
 </ul>
-<br>
-<div align="center">
-  <p>Utviklet av Sebastian Helgesen (et mensløst mannfolk) for Punktum UB</p>
-</div>
-<br>
 
 <div align="center">
-  <a style="color: #ffffff;" href="https://punktumub.com/Privacy_from_gagogi.html" target="_blank">Vi bryr oss om ditt personvern &nearr;</a>
+  <p>Utviklet av Sebastian Helgesen for Punktum UB</p>
 </div>
-<br>
 
-<!-- Quantcast Choice. Consent Manager Tag -->
-<script type="text/javascript" async=true>
-    var elem = document.createElement('script');
-    elem.src = 'https://quantcast.mgr.consensu.org/cmp.js';
-    elem.async = true;
-    elem.type = "text/javascript";
-    var scpt = document.getElementsByTagName('script')[0];
-    scpt.parentNode.insertBefore(elem, scpt);
-    (function() {
-    var gdprAppliesGlobally = false;
-    function addFrame() {
-        if (!window.frames['__cmpLocator']) {
-        if (document.body) {
-            var body = document.body,
-                iframe = document.createElement('iframe');
-            iframe.style = 'display:none';
-            iframe.name = '__cmpLocator';
-            body.appendChild(iframe);
-        } else {
-            // In the case where this stub is located in the head,
-            // this allows us to inject the iframe more quickly than
-            // relying on DOMContentLoaded or other events.
-            setTimeout(addFrame, 5);
-        }
-        }
-    }
-    addFrame();
-    function cmpMsgHandler(event) {
-        var msgIsString = typeof event.data === "string";
-        var json;
-        if(msgIsString) {
-        json = event.data.indexOf("__cmpCall") != -1 ? JSON.parse(event.data) : {};
-        } else {
-        json = event.data;
-        }
-        if (json.__cmpCall) {
-        var i = json.__cmpCall;
-        window.__cmp(i.command, i.parameter, function(retValue, success) {
-            var returnMsg = {"__cmpReturn": {
-            "returnValue": retValue,
-            "success": success,
-            "callId": i.callId
-            }};
-            event.source.postMessage(msgIsString ?
-            JSON.stringify(returnMsg) : returnMsg, '*');
-        });
-        }
-    }
-    window.__cmp = function (c) {
-        var b = arguments;
-        if (!b.length) {
-        return __cmp.a;
-        }
-        else if (b[0] === 'ping') {
-        b[2]({"gdprAppliesGlobally": gdprAppliesGlobally,
-            "cmpLoaded": false}, true);
-        } else if (c == '__cmp')
-        return false;
-        else {
-        if (typeof __cmp.a === 'undefined') {
-            __cmp.a = [];
-        }
-        __cmp.a.push([].slice.apply(b));
-        }
-    }
-    window.__cmp.gdprAppliesGlobally = gdprAppliesGlobally;
-    window.__cmp.msgHandler = cmpMsgHandler;
-    if (window.addEventListener) {
-        window.addEventListener('message', cmpMsgHandler, false);
-    }
-    else {
-        window.attachEvent('onmessage', cmpMsgHandler);
-    }
-    })();
-    window.__cmp('init', {
-    		'Language': 'no',
-		'Initial Screen Title Text': 'Vi bryr oss om ditt personvern',
-		'Initial Screen Reject Button Text': 'Jeg aksepterer ikke',
-		'Initial Screen Accept Button Text': 'jeg samtykker',
-		'Initial Screen Purpose Link Text': 'Se formål',
-		'Purpose Screen Title Text': 'Vi bryr oss om ditt personvern',
-		'Purpose Screen Body Text': 'Du kan angi samtykkepreferanser og bestemme hvordan du vil at dataene skal brukes basert på formålene nedenfor. Du kan angi dine preferanser for oss uavhengig av tredjepartspartnere. Hver hensikt har en beskrivelse slik at du vet hvordan vi og partnere bruker dataene dine.',
-		'Vendor Screen Title Text': 'Vi bryr oss om ditt personvern',
-		'Vendor Screen Body Text': 'Du kan angi samtykkepreferanser for hvert enkelt tredjepartsfirma nedenfor. Utvid hver firmalistepost for å se hvilke formål de bruker data for å bidra til å gjøre dine valg. I noen tilfeller kan selskaper avsløre at de bruker dataene dine uten å be om ditt samtykke, basert på deres legitime interesser. Du kan klikke på deres personvernregler for mer informasjon og å melde deg av.',
-		'Vendor Screen Accept All Button Text': 'Aksepter alle',
-		'Vendor Screen Reject All Button Text': 'Avslå alle',
-		'Vendor Screen Purposes Link Text': 'Tilbake til formål',
-		'Initial Screen Body Text': 'Vi og våre partnere bruker teknologi som informasjonskapsler på nettstedet vårt for å tilpasse innhold og andre internett teknologier, som sosiale medier, og trafikkanalyse. Klikk nedenfor for å samtykke til bruken av denne teknologien på Internett. Du kan ombestemme deg og endre dine samtykkevalg når som helst.',
-		'Initial Screen Body Text Option': 1,
-		'Publisher Name': 'Punktum UB Online Powered by Gagogi',
-		'Publisher Logo': 'https://helges1.gitlab.io/punktum-ub/logo.png',
-		'Publisher Purpose IDs': [1,2,3,4,5],
-		'Consent Scope': 'Tjenester',
-		'No Option': false,
-		'Publisher Purpose Legitimate Interest IDs': [1],
-		'Consent Scope Group URL': 'http://gagogi.com/',
-    });
-</script>
-<!-- End Quantcast Choice. Consent Manager Tag -->
-    <style>
-        .qc-cmp-button {
-          background-color: #ffffff !important;
-          border-color: #ffffff !important;
-        }
-        .qc-cmp-button:hover {
-          background-color: transparent !important;
-          border-color: #ffffff !important;
-        }
-        .qc-cmp-alt-action,
-        .qc-cmp-link {
-          color: #ffffff !important;
-        }
-        .qc-cmp-button {
-          color: #0f0f0f !important;
-        }
-        .qc-cmp-ui a,
-        .qc-cmp-ui .qc-cmp-alt-action {
-          color: #ffffff !important;
-        }
-        .qc-cmp-ui {
-            background-color: #d97070 !important;
-        }
-        .qc-cmp-publisher-purposes-table .qc-cmp-table-header {
-          background-color: #fafafa !important;
-        }
-        .qc-cmp-publisher-purposes-table .qc-cmp-table-row {
-          background-color: #ffffff !important;
-        }
-        .qc-cmp-small-toggle.qc-cmp-toggle-on,
-        .qc-cmp-toggle.qc-cmp-toggle-on {
-            background-color: #d97070 !important;
-            border-color: #d97070 !important;
-        }
-    </style>
-
-<!-- Quantcast Tag -->
-<script type="text/javascript">
-var _qevents = _qevents || [];
-
-(function() {
-var elem = document.createElement('script');
-elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
-elem.async = true;
-elem.type = "text/javascript";
-var scpt = document.getElementsByTagName('script')[0];
-scpt.parentNode.insertBefore(elem, scpt);
-})();
-
-_qevents.push({
-qacct:"p-JEXKV8D89846q"
-});
-</script>
-
-<noscript>
-<div style="display:none;">
-<img src="//pixel.quantserve.com/pixel/p-JEXKV8D89846q.gif" border="0" height="1" width="1" alt="Quantcast"/>
-</div>
-</noscript>
-<!-- End Quantcast tag -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
